@@ -21,3 +21,12 @@ ro.device.gpu=Qualcomm Adreno 225
 ro.device.rear_cam=8 MP
 ro.device.front_cam=1.9 MP
 ro.device.screen_res=720x1280
+
+# Ril props
+persist.radio.snapshot_enabled=1
+persist.radio.snapshot_timer=22
+ro.config.multimode_cdma=1
+ro.config.combined_signal=true
+ro.gsm.data_retry_config=max_retries=infinite,5000,5000,60000,120000,480000,900000
+DEVICE_PROVISIONED=1
+persist.eons.enabled=false
